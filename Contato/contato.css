@@ -1,6 +1,6 @@
 header {
     background: #bbbb;
-    padding: 20 px 0px;
+    padding: 20px 0px;
 }
 
 .caixa {
@@ -33,13 +33,83 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+p {
+    display: block;
+    font-size: 20px;
+    margin: 0 200px 10px;
+    font-weight: bold;
+}
+
+.input-padrao {
+    display: block;
+    border-radius: 2px;
+    margin: 0 0 20px;
+    padding: 7px 15px;
+    width: 50%;
+    border: solid 1px;
+}
+
+.checkbox-position {
+    margin: 20px 0;
+}
+
+.button {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(56, 253, 56);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 2s all;
+}
+
+.button:hover {
+    background: darkgreen;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+#funcionamentoHorario {
+    background: black;
+}
+
+thead {
+    background: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th { 
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
 footer {
     text-align: center;
     background: url("/img/bg.jpg");
-    padding: 40px 0;
+    padding: 10px 10px;
 }
-
-
 
 .copyright {
     color: #ffffff;
