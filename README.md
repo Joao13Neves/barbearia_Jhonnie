@@ -1,3 +1,3 @@
 # barbeariaJhonnie
 
-Meu primeiro projeto estudando HTML e CSS, estarei melhorando esse projeto conforme os níveis do curso forem avançando.
+My first project studying HTML and CSS, I will be improving this project as the course levels progress.
