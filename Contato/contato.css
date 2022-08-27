@@ -1,6 +1,7 @@
 header {
-    background: #bbbb;
+    background: #116a82;
     padding: 20px 0px;
+    border-radius: 0 0 20px 20px;
 }
 
 .caixa {
@@ -33,6 +34,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+body {
+    background: #d5dcde;
+}
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -57,11 +62,13 @@ p {
 
 .input-padrao {
     display: block;
-    border-radius: 2px;
+    background: whitesmoke;
+    border-radius: 3px;
     margin: 0 0 20px;
     padding: 7px 15px;
     width: 50%;
-    border: solid 1px;
+    border: none 1px;
+    box-shadow: 1.5px 2px #116a82;
 }
 
 .checkbox-position {

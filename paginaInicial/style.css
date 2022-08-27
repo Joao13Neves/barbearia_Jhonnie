@@ -1,6 +1,7 @@
 header {
-    background: #bbbb;
+    background: #116a82;
     padding: 20px 0px;
+    border-radius: 0 0 20px 20px;
 }
 
 .caixa {
@@ -43,16 +44,24 @@ body {
     padding: 30px;
 }
 
+.tituloPrincipal {
+    text-align: justify;
+    padding: 0 180px 0;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+p {
+   
+}
+
 #banner {
     width: 100%;
 }
 
 .tituloCentralizado {
     text-align: center;    
-}
-
-p {
-    text-align: center;
 }
 
 #missao {
@@ -74,6 +83,18 @@ em strong {
 
 .imagemBeneficios {
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("/img/bg.jpg");
+    padding: 20px 20px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 60px;
 }
 
 
