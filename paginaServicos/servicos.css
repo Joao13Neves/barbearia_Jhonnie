@@ -38,13 +38,13 @@ body {
     background: #d5dcde;
 }
 
-.produtos {
+.servicos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.produtos li {
+.servicos li {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -56,28 +56,28 @@ body {
     border-radius: 20px 20px;
 }
 
-.produtos li:hover {
+.servicos li:hover {
     border-color: #c78c19;
 }
 
-.produtos li:active {
+.servicos li:active {
     border-color: #088c19;  
 }
 
-.produtos li:hover h2 {
+.servicos li:hover h2 {
     font-size: 35px;
 }
 
-.produtos h2 {
+.servicos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.produto-descricao {
+.servicos-descricao {
     font-size: 18px;
 }
 
-.produto-preco {
+.servicos-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
