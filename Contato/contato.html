@@ -23,28 +23,29 @@
         </header>
 
         <main>
-            <form>
+            <form action="https://formspree.io/f/xqkjavbv" method="POST">
+                
                 <label for="nomeSobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Digite seu nome">
+                <input type="text" name="Nome completo" id="nomeSobrenome" class="input-padrao" required placeholder="Digite seu nome">
 
                 <label for="email">E-mail</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <input type="email" name="E-mail" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" maxlength="11" class="input-padrao" required placeholder="(DDD) XXXXX-XXXX">
+                <input type="tel" name="Telefone" id="telefone" maxlength="11" class="input-padrao" required placeholder="(DDD) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite uma mensagem"></textarea>
+                <textarea cols="30" rows="10" id="mensagem" name="Mensagem" class="input-padrao" required placeholder="Digite uma mensagem"></textarea>
 
                 <fieldset>
                     
                     <legend>Como prefere o nosso contato?</legend>
 
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    <label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">E-mail</label>
 
-                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-telefone"><input type="radio" name="Contato" value="telefone" id="radio-telefone">Telefone</label>
                     
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="Contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                     
                 </fieldset><br>
             
