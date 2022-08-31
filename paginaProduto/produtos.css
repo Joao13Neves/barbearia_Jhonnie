@@ -1,7 +1,7 @@
 header {
     background: #116a82;
     padding: 20px 0px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
 }
 
 .caixa {
@@ -86,7 +86,8 @@ body {
 footer {
     text-align: center;
     background: url("/img/bg.jpg");
-    padding: 40px 0;
+    padding: 20px 20px;
+    border-radius: 10px 10px 0 0;
 }
 
 .copyright {
