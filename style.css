@@ -93,13 +93,15 @@ body {
     letter-spacing: 0;
 }
 
+.itens:before {
+    content: "⤕ ";
+}
+
 .itens {
    text-align: left;
    margin-left: 700px; 
-   list-style-type: circle;
-   list-style-position: inside;
    padding: 10px;
-   word-spacing: 8px;
+   word-spacing: 12px;
    line-height: 28px;
    font-size: large;
    font-family: Georgia, 'Times New Roman', Times, serif;
