@@ -36,6 +36,7 @@ nav a:hover {
 
 body {
     background: #d5dcde;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -46,6 +47,7 @@ body {
 .tituloPrincipal {
     text-align: justify;
     padding: 0 250px 0;
+    margin-top: 80px;
     font-size: 28px;
     font-weight: 180;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -67,8 +69,8 @@ body {
     cursor: pointer;
 }
 
-#textoHistoria {
-   margin: 50px;
+#texto {
+   margin: 60px;
    text-align: justify;
    width: 500px;
    word-spacing: 12px;
@@ -83,8 +85,9 @@ body {
 
 .tituloBeneficios {
     text-align: right;
-    margin-right: 280px;
-    padding: 20px;
+    margin-right: 220px;
+    margin-top: 40px;
+    padding: 10px;
     font-size: 28px;
     font-weight: 180;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -123,6 +126,25 @@ body {
     transform: scale(1.1);
     transition: 3s;
     cursor: pointer;
+}
+
+.tituloMapa { 
+    text-align: justify;
+    margin-left: 40px;
+    padding: 20px 230px 0;
+    font-size: 28px;
+    font-weight: 180;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0;
+}
+
+.mapa {
+    margin-right: 60px;
+    width: 580px;
+    height: 290px;
+    margin-top: -320px;
+    border-radius: 20px;
+    float: right;
 }
 
 footer {

@@ -36,6 +36,7 @@ nav a:hover {
 
 body {
     background: #d5dcde;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -67,7 +68,6 @@ form label, form legend {
 .horariosAtendimento > select {
     border-radius: 3px;
     width: 10%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 0.3rem 0.6rem;
     cursor: pointer;
     color: black;
@@ -115,7 +115,6 @@ td, th {
     text-align: center;
     border: 1px solid black;
     padding: 6px 110px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 footer {

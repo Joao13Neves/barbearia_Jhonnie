@@ -36,6 +36,7 @@ nav a:hover {
 
 body { 
     background: #d5dcde;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .servicos {
@@ -50,7 +51,7 @@ body {
     width: 30%;
     vertical-align: top;
     margin: 20px 1.5%;
-    padding: 30px 20px;
+    padding: 30px 5px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 20px 20px;
